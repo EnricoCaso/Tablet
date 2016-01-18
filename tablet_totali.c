@@ -83,5 +83,9 @@ void tablet_totali(int A[][2],int B[][2],int C[][2],int k,int y,int *x)
 			z+=1;
 		}
 	}
+	
+	// Restituiamo la grandezza effettiva di C
+	*x=z;
+
 
 }/*fine*/
